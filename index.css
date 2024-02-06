@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100svh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.grid-item {
+    border: 1.5px solid #000000;
+    width: 6svw;
+    height: 6svw;
+    background-color: #fff;
+}
+
+.m-10 {
+    margin-top: 10px;
+}
